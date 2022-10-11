@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, span {
+    color: rgb(21, 24, 53);;
+}
+
+
+header {
+    display: flex;
+    background-color: rgb(21, 24, 53);
+    justify-content: space-between;
+    padding: 20px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+header nav {
+    background-color:  rgb(21, 24, 53);
+}
+
+header a {
+    border-radius: 40px;
+    background-color:  rgb(21, 24, 53);
+    color: white;
+    padding: 10px;
+}
+
+header h3 {
+    background-color:  rgb(21, 24, 53);
+    color: white;
+}
+
+
+header a:hover {
+    background-color: rgb(17, 14, 42);
+}
+
+.logo-info {
+    border-radius: 20px 20px 0 0px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-info-div {
+    display: block;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.logo-info-div h1 {
+    background-color: transparent;
+    font-size: 90px;
+}
+
+.logo-info-div h4 {
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.logo-info-div button {
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.logo-info-div button:hover {
+    background-color: rgb(21, 24, 53);
+    color: white;
+}
+
+.historia-sobre-main {
+    display: flex;
+    background-image: url(src/img/principal.jpg);
+    background-size: 100%;
+    background-position: 50%;
+    min-width: 930px;
+    background-repeat: 0;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+.historia-sobre-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: transparent;
+
+}
+
+.historia-sobre-div h1, h3, span{
+    background-color: transparent;
+}
+
+
+.historia-sobre-div h1{
+    margin: 15px 0 25px 0;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+
+.historia-sobre-div h3 {
+    font-size: 20px;
+    background-color: transparent;
+}
+
+
+.historia-sobre-div span{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.galeria-fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+}
+
+.galeria-fotos h1 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.galeria-fotos-div {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow: scroll;
+}
+
+.galeria-fotos-div > div {
+    flex: 1 0 300px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(21, 24, 53) transparent;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(21, 24, 53, 0.5);
+    border-radius: 20px;
+    border: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb:active {
+    background-color: rgb(21, 24, 53);
+  }
